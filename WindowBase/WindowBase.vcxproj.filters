@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SourceCode">
+      <UniqueIdentifier>{ef5b4cfe-3ade-4a38-b2a8-5af915ab4f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Game">
+      <UniqueIdentifier>{7a3d0760-348a-40b7-9f66-2af4f540248a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\Player">
+      <UniqueIdentifier>{be3cb3e3-9658-4d4d-88ec-f4cc0d78760b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceCode\WinInit">
+      <UniqueIdentifier>{b91f3947-2103-4fd1-a9ff-bf74b8f1c7da}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SourceCode\Main.cpp">
+      <Filter>SourceCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CGame.cpp">
+      <Filter>SourceCode\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CPlayer.cpp">
+      <Filter>SourceCode\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SourceCode\CWinInit.cpp">
+      <Filter>SourceCode\WinInit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SourceCode\Global.h">
+      <Filter>SourceCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\MyMacro.h">
+      <Filter>SourceCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CGame.h">
+      <Filter>SourceCode\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CPlayer.h">
+      <Filter>SourceCode\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="SourceCode\CWinInit.h">
+      <Filter>SourceCode\WinInit</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
